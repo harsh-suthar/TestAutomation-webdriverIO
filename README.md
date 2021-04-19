@@ -3,3 +3,30 @@
 
 # TestAutomation-webdriverIO
 Test Automation framework using WebdriveIO and Percy(For visual regression testing)
+
+## Packages
+
+
+```bash
+"devDependencies": {
+    "@babel/cli": "^7.13.14",
+    "@babel/core": "^7.13.15",
+    "@babel/preset-env": "^7.13.15",
+    "@babel/register": "^7.13.14",
+    "@wdio/cli": "^7.4.6",
+    "@wdio/local-runner": "^7.4.6",
+    "@wdio/mocha-framework": "^7.4.6",
+    "@wdio/spec-reporter": "^7.4.3",
+    "@wdio/sync": "^7.4.6",
+    "chromedriver": "^90.0.0",
+    "prettier": "^2.2.1",
+    "wdio-chromedriver-service": "^7.0.0"
+  }
+```   
+
+## Usage
+
+```python
+npm rebuild
+npm run test
+```
