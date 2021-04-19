@@ -4,8 +4,23 @@
 # TestAutomation-webdriverIO
 Test Automation framework using WebdriveIO and Percy(For visual regression testing)
 
-## Packages
+## Framework Prerequisites
+In order to run following software is required to be installed on your system:
 
+```bash
+Node.js (v14 or higher)
+```
+```bash
+NPM (v7 or higher)
+```
+```bash
+Python (2.7 or higher)
+```
+```bash
+An updated browser (e.g. Chrome, Firefox etc.)
+```
+
+## Framework Packages
 
 ```bash
 "devDependencies": {
@@ -23,6 +38,20 @@ Test Automation framework using WebdriveIO and Percy(For visual regression testi
     "wdio-chromedriver-service": "^7.0.0"
   }
 ```   
+
+## Framework Adapters
+
+```text
+@wdio/cucumber-framework - Adapter for Cucumber testing framework
+@wdio/jasmine-framework - Adapter for Jasmine testing framework
+@wdio/mocha-framework - Adapter for Mocha testing framework.
+```
+
+## Framework Runner
+
+```text
+@wdio/local-runner - A WebdriverIO runner to run tests locally
+```
 
 ## Usage
 
